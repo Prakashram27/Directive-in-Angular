@@ -3,7 +3,7 @@ import { Directive, ElementRef, OnInit, Renderer2 } from '@angular/core';
 @Directive({
   selector: '[appBasicHighLights]',
 })
-export class BasicHightLightDirective implements OnInit {
+export class BasicHighLightDirective implements OnInit {
   constructor(private renderer: Renderer2, private elementRef: ElementRef) {}
 
   ngOnInit() {
@@ -12,7 +12,7 @@ export class BasicHightLightDirective implements OnInit {
     this.renderer.setStyle(
       this.elementRef.nativeElement,
       'background-color',
-      'yellow'
+      '#A89166'
     );
   }
 }
