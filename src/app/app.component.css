@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+.container {
+  margin-top: 30px;
+}
+.list-group {
+  margin-top: 10px;
+  padding: 3px;
+}
+.list-group-item {
+  margin-top: 10px;
+}
+.odd {
+  color: red;
+}
+
