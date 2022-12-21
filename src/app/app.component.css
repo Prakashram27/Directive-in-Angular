@@ -14,4 +14,7 @@ p {
 .odd {
   color: red;
 }
-
+.btn {
+  background-color: #3E3053;
+  border: 0px;
+}
